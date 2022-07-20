@@ -1,0 +1,65 @@
+.root{
+	-fx-background-color: #1f0500;
+	
+}
+
+.label {
+	-fx-text-fill: #F5F3EE;
+	-fx-font-family: "Noto";
+}
+
+#serversLabel{
+	-fx-font-family: "Comic Sans MS";
+    -fx-font-weight: bold;
+}
+
+.menu:hover {
+     -fx-background-color:
+        linear-gradient(#FAEBEFFF, white),
+        radial-gradient(center 50% -40%, radius 200%, white 45%, white 50%);
+
+}
+
+.menu-bar .label {  
+    -fx-text-fill: black;
+    -fx-font-family: "Comic Sans MS";
+  
+}
+
+.button {
+    -fx-background-color:
+        linear-gradient(#FAEBEFFF, white),
+        radial-gradient(center 50% -40%, radius 200%, white 45%, white 50%);
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: #1f0500;
+    -fx-font-size: 14;
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-weight: bold;
+    -fx-border-width: 2;
+    -fx-border-color: #D5D2CC;
+    
+}
+
+.button:hover {
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #EBE8E3 0%, #EBE8E3 100%),
+        #EBE8E3,
+        #EBE8E3,
+        radial-gradient(center 50% 50%, radius 100%, #EBE8E3, #EBE8E3); 
+}
+
+.button Text {
+    -fx-fill: white;
+}
+
+.button:pressed {
+    -fx-padding: 0.5 0.5 0.5 0.5;   
+}
+
+#gPane{
+	-fx-border-width: 3;
+	-fx-border-color: #D5D2CC;
+	-fx-background-color: #9c6a72;
+}

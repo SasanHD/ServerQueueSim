@@ -1,0 +1,16 @@
+.root{
+	-fx-background-color: #EBE8E3;
+	
+}
+
+.label {
+	-fx-text-fill: #852535;
+	-fx-font-family: "Comic Sans MS";
+	
+}
+
+#headerLabel{
+	-fx-font-family: "Noto";
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+}

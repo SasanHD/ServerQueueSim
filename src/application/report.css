@@ -1,0 +1,49 @@
+.root{
+	-fx-background-color: #EBE8E3;
+	
+}
+
+.label {
+	-fx-text-fill: #852535;
+	-fx-font-family: "Noto";
+	
+}
+
+#headerLabel{
+	-fx-font-family: "Noto";
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+}
+
+.button {
+    -fx-background-color:
+        linear-gradient(white, white),
+        radial-gradient(center 50% -40%, radius 200%, white 45%, white 50%);
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: #852535;
+    -fx-font-size: 14;
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-weight: bold;  
+}
+
+.button:hover {
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #ccc0c2 0%, #ccc0c2 100%),
+        #ccc0c2,
+        #ccc0c2,
+        radial-gradient(center 50% 50%, radius 100%, #ccc0c2, #ccc0c2);   
+}
+
+
+
+.data0.chart-pie { -fx-pie-color: #913c48; }
+.data1.chart-pie { -fx-pie-color: #cc5466; }
+.data2.chart-pie { -fx-pie-color: #fa647a; }
+
+.chart-pie-label {
+    
+	-fx-font-family: "Noto";
+	-fx-font-weight: bold;
+}
